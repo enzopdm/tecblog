@@ -1,0 +1,155 @@
+/* Tags */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(228, 228, 228);
+}
+
+footer{
+  background-color: grey;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+header{
+  background-color: #f7b600;
+  text-align: center;
+  padding: 15px;
+}
+
+hr{
+  background-color: #f7b600;
+  border: 1px solid #f7b600;
+  width: 95%;
+  height: 2px;
+  margin: 10px auto;
+}
+
+li a{
+  padding: 10px auto;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+main{
+  width: 920px;
+  margin: 0 auto;
+}
+
+nav a {
+  margin: 10px;
+}
+
+nav a:link, a:visited{
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+nav a:hover{
+  background-color: #dba204;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+span{
+  color: white;
+}
+
+ul{
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* IDs */
+
+#area-lateral{
+  float: right;
+  width: 240px;
+}
+
+#area-lateral, #area-postagem{
+  background-color: white;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+#area-logo a{
+  text-decoration: none;
+}
+
+#area-logo, nav{
+  padding: 10px;
+}
+
+#area-postagem{
+  float: left;
+  width: 660px;
+  background-color: white;
+}
+
+#area-postagem h2{
+  color: #f7b600;
+}
+
+/* Classes */
+
+.conteudo-lateral{
+  font-size: small;
+  margin: 10px;
+}
+
+.conteudo-lateral a{
+  color: #f7b600;
+  text-decoration: none;
+  margin: 3px 0;
+}
+
+.conteudo-lateral h3{
+  color: #4e4e4e;
+  text-decoration: underline;
+}
+
+.conteudo-lateral p{
+  text-align: left;
+  margin-top: 5px;
+}
+
+.conteudo-postagem{
+  text-indent: 10px;
+  margin: 10px auto;
+}
+
+.leia-mais:hover{
+  text-decoration: underline;
+}
+
+.postagem{
+  margin: 15px;
+  text-align: justify;
+}
+
+.postagem a{
+  text-decoration: none;
+  color: #f7b600;
+}
+
+.postagem img{
+  margin: 15px 0;
+  width: 630px;
+}
